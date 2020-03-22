@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Failed suite [Test Of TestNG1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Bing(failed)">
+    <classes>
+      <class name="cn.ianzhang.automation.TestDemo">
+        <methods>
+          <include name="teardown"/>
+          <include name="search"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- cn.ianzhang.automation.TestDemo -->
+    </classes>
+  </test> <!-- Bing(failed) -->
+</suite> <!-- Failed suite [Test Of TestNG1] -->

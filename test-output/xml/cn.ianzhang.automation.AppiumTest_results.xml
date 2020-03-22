@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="手机QQ登录"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.629">
+  <properties />
+  
+  
+            <testcase name="calcTestcase" time="49.629" classname="cn.ianzhang.automation.AppiumTest" />
+      
+</testsuite>

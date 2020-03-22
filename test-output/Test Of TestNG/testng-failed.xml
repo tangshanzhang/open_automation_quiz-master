@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Failed suite [Test Of TestNG]">
+  <parameter name="searchWord" value="Bing"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="百度搜索(failed)">
+    <parameter name="searchWord" value="Bing"/>
+    <classes>
+      <class name="cn.ianzhang.automation.TestDemo">
+        <methods>
+          <include name="teardown"/>
+          <include name="search" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- cn.ianzhang.automation.TestDemo -->
+    </classes>
+  </test> <!-- 百度搜索(failed) -->
+</suite> <!-- Failed suite [Test Of TestNG] -->

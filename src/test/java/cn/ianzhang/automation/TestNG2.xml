@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Of TestNG2">
+
+    <test verbose="2" name="手机QQ登录">
+        <classes>
+            <class name="cn.ianzhang.automation.AppiumTest">
+            	<methods>
+                    <include name="calcTestcase" />
+                </methods>
+            </class>
+        </classes>
+        
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+        
+    </test>
+</suite>
