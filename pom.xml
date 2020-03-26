@@ -250,9 +250,10 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 					<suiteXmlFiles>
-					　　<file>/TestNGProject/open_automation_quiz-master/src/test/java/cn/ianzhang/automation/TestNG1.xml</file>
+						<file>TestNG1.xml</file>
+					　　<!-- <file>/TestNGProject/open_automation_quiz-master/src/test/java/cn/ianzhang/automation/TestNG1.xml</file>
 						<file>/TestNGProject/open_automation_quiz-master/src/test/java/cn/ianzhang/automation/TestNG2.xml</file>
-						<file>/TestNGProject/open_automation_quiz-master/src/test/java/cn/ianzhang/automation/TestNG3.xml</file>
+						<file>/TestNGProject/open_automation_quiz-master/src/test/java/cn/ianzhang/automation/TestNG3.xml</file> -->
 　　					</suiteXmlFiles>
 					<properties>
 					　　<property>
