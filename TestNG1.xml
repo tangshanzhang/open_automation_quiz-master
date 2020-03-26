@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Of TestNG1">
+
+    <test verbose="2" name="Bing">
+        <classes>
+            <class name="cn.ianzhang.automation.TestDemo">
+                <methods>
+                    <include name="search" />
+                </methods>
+            </class>
+        </classes>
+        
+        <listeners>
+            <listener class-name="org.uncommons.reportng.HTMLReporter" />
+            <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        </listeners>
+        
+    </test>
+</suite>

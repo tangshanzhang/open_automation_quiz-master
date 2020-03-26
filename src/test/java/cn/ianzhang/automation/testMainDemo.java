@@ -35,9 +35,6 @@ public class testMainDemo {
 		// 创建一个浏览器驱动实例
 		driver = new InternetExplorerDriver();
 		
-//		DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
-//		ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-		
         //打开URL
         driver.navigate().to(url);  
 
